@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html {
+  font-family: 'Lato',sans-serif;
+}
+body {
+  font-smooth: always; /* Standard syntax */
+    -webkit-font-smoothing: antialiased; /* Webkit browsers like Chrome and Safari */
+    -moz-osx-font-smoothing: grayscale;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  place-items: center;
+  gap: 40px;
+  padding: 30px 0;
+  grid-auto-rows: minmax(auto,1fr);
+}
